@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#myScrollspy {
+   z-index: 99;
+   height: 100%;
+   width: auto;
+   display: flex;
+   align-items: center;
+   background: transparent;
+   position:fixed;
+   left:0px;
+}
+
+#myScrollspy li {
+   list-style: none;
+   //filter: opacity(50%);
+}
+
+#myScrollspy a {
+   padding: 5px;
+   margin: 50px 0 50px 20px;
+   border: 2px solid lightcoral;
+   border-radius: 100%;
+}
+
+#myScrollspy li:not(:last-child) a:before {
+   content: "";
+   height: 52px;
+   margin-left: -1px;
+   margin-top: 5px;
+   border-style: solid;
+   border-width: 0.5px;
+   border-color: lightcoral;
+   position: absolute;
+}
+
+#myScrollspy a:hover {
+   background-color: lightcoral;
+}
+.page {
+   padding: 0;
+}
+
+#order-history tr:first-child {
+    background:#f5f5f5
+}
+
+@media screen and (max-width: 414px) {
+   #myScrollspy ul {
+      margin-left: -30px;
+   }
+}

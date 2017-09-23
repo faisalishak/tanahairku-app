@@ -1,0 +1,274 @@
+ @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,800,900);
+ body {
+   background-color: #f3f3f3;
+   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #555;
+   -webkit-font-smoothing: antialiased;
+   -webkit-overflow-scrolling: touch;
+ }
+ 
+ .navbar-default {
+   background-color: #E14344;
+   border-color: transparent;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+   height: 90px;
+ }
+ 
+ .navbar-default .navbar-brand {
+   color: #FFF;
+ }
+ 
+ .navbar-brand {
+   transform: translateX(-50%);
+   left: 50%;
+   position: absolute;
+ }
+ 
+ .navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-brand:focus {
+   color: #e9e9e9;
+ }
+ 
+ .navbar-default .navbar-brand:active {
+   color: #E14344;
+ }
+ 
+ .navbar-default .navbar-nav>li>a {
+   color: #FFFFFF;
+ }
+ 
+ .navbar-brand {
+   transition: color 1s ease 0s;
+ }
+ 
+ .navbar-brand.opaque {
+   color: #FFFFFF;
+   transition: color 1s ease 0s;
+ }
+ 
+ .body-content {
+   padding-top: 130px;
+ }
+ 
+ .center {
+   margin: 0 auto;
+   text-align: center;
+   width: 80%;
+ }
+ 
+ .card {
+   min-width: 200px;
+   border-radius: 2px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+   background-color: #FFFFFF;
+   margin-bottom: 30px;
+ }
+ 
+ .card .image {
+   width: 100%;
+   overflow: hidden;
+   height: 12%;
+   border-radius: 2px 2px 0 0;
+   position: relative;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+ 
+ .card .image img {
+   width: 100%;
+ }
+ 
+ .card .title {
+   margin: 0;
+   color: #333333;
+   font-weight: 400;
+   font-size: 18px;
+ }
+ 
+ .card .video-desc {
+   text-align: center;
+   text-transform: none;
+   padding: 20px;
+ }
+ 
+ .card .video-desc .title>small {
+   font-size: 14px;
+   font-weight: 300;
+ }
+  
+ i {
+   margin: 8px;
+   color: #E14344;
+ }
+ 
+ .fa-heart {
+   color: #E57373;
+ }
+ 
+ .footer {
+   padding: 20px;
+   text-align: center;
+   font-size: 12px;
+ }
+ 
+ @media (min-width: 1200px) {
+   .card .title {
+     margin: 0;
+     color: #333333;
+     font-weight: 400;
+     font-size: 18px;
+   }
+ }
+ 
+ @media (max-width: 1199px) {
+   .card .title {
+     margin: 0;
+     color: #333333;
+     font-weight: 400;
+     font-size: 14px;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .card .title {
+     margin: 0;
+     color: #333333;
+     font-weight: 400;
+     font-size: 14px;
+   }
+   .content-desc p {
+     padding: 0px;
+     font-size: 12px;
+   }
+ }
+ 
+ .pulse {
+   display: inline-block;
+   -moz-animation: pulse 2s infinite linear;
+   -o-animation: pulse 2s infinite linear;
+   -webkit-animation: pulse 2s infinite linear;
+   animation: pulse 2s infinite linear;
+ }
+ 
+ @-webkit-keyframes pulse {
+   0% {
+     opacity: 1;
+   }
+   50% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ @-moz-keyframes pulse {
+   0% {
+     opacity: 1;
+   }
+   50% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ @-o-keyframes pulse {
+   0% {
+     opacity: 1;
+   }
+   50% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ @-ms-keyframes pulse {
+   0% {
+     opacity: 1;
+   }
+   50% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes pulse {
+   0% {
+     opacity: 1;
+   }
+   50% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ @-webkit-keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.3);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }
+ 
+ @-moz-keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.3);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }
+ 
+ @-o-keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.3);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }
+ 
+ @-ms-keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.3);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }
+ 
+ @keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.3);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }

@@ -1,0 +1,118 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {	
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	background: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+}
+
+iframe {
+	border: none;
+}
+
+.btn-primary {
+    border-color: #E57373;
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #E57373;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    border: 1px solid #E57373;
+    color: #E57373;
+    background-color: transparent;
+}
+
+.login-text h3{
+	margin: 0px auto;
+	text-align: center;
+	font-weight: 600;
+	color: #c0c0c0;
+}
+
+.login-text {
+	margin: 0px auto;
+	text-align: center;
+	color: #c0c0c0;
+}
+
+.btn-primary-grey {
+    border-color: #c0c0c0;
+    text-transform: uppercase;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #c3c3c3;
+    background-color: transparent;
+}
+
+.btn-primary-grey:hover,
+.btn-primary-grey:focus,
+.btn-primary-grey:active,
+.btn-primary-grey.active {
+    border: 1px solid #E57373;
+    color: #fff;
+    background-color: #E57373;
+}
+
+.form-signin {
+	max-width: 350px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 30px 50px;
+	font-size: 16px;
+	text-align: center;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.form-control {
+	font-size: 13px;
+	height: 45px;
+	font-weight: 300;
+	margin: 0px 10px;
+	border: 1px solid #eaeaea;
+	-webkitbox-shadow: 0px 0px 0px #fff;
+	-moz-box-shadow: 0px 0px 0px #fff;
+	box-shadow: 0px 0px 0px #fff;
+}
+
+.form-control:focus {
+	-webkit-box-shadow: 0 0 4px #eaeaea;
+	-moz-box-shadow: 0 0 4px #eaeaea;
+	box-shadow: 0px 0px 4px #eaeaea;
+	border: 1px solid #eaeaea;
+}
+
+.form-custom {
+	margin: 20px 0px;
+	
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border-bottom: 4px solid #E57373;
+}

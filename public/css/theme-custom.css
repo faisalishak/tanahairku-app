@@ -1,0 +1,239 @@
+#home {
+  background-image: url(../img/mockup-buku-1280x905.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;	
+  background-color: rgba(249, 89, 89, 0.67);
+	padding-bottom: 0px;
+	text-align: center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home h1 {
+  font-weight: 500 !important;
+}
+
+#background-ilustration {
+  background-image: url(../img/illustration_menu.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;	
+	padding-bottom: 0px;
+	text-align: center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-centered {
+   display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:center;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
+.padding-top-120 {
+  padding-top: 120px;
+}
+
+
+.rectangle-home {
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  min-height: 650px;
+	width: 100%;
+  
+	background-color: rgba(249, 89, 89, 0.67);
+}
+
+.color-white{
+	color: white;
+}
+
+#home h2, #home h4, #home a {
+  color: #ffffff;
+}
+
+section img {
+  display: inline;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.youtube-full-layer {
+  width: 100%;
+  min-height: 756px;
+}
+
+.margin-top-100 {
+	margin-top: 100px;
+}
+
+.margin-bottom-100 {
+	margin-bottom: 100px;
+}
+
+
+/* Carousel */
+#service #img-large {
+	min-height: 285px;
+	padding-bottom: 22px;
+}
+
+#service a {
+  text-decoration: none;
+}
+
+/* Override MDL */
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+  color: #f08080 !important;
+}
+
+.mdl-textfield__label:after {
+  background-color: #f08080;
+  bottom: 11px !important;
+}
+
+.line-height p{
+  line-height: 1.5;
+  text-indent: 0px;
+}
+
+.rectangle-get-app {
+	padding-top: 50px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+	width: 100%;
+	min-height: 450px;
+	height: 330px;
+	background-color: #555555;
+}	
+
+.color-white{
+	color: white;
+}
+
+.label{
+  font-size: 15px;
+  font-weight: 220px;
+  color: #696060;
+}
+
+.width-200{
+  width: 220px;
+}
+
+.login-flyer-wrapper{
+  background: #F0F0F0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.external-logo {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.external-logo-lists:before, .external-logo-lists:after {
+    content: " ";
+    display: table;
+}
+
+.external-logo-lists {
+    display: inline-block;
+}
+
+.external-logo--list {
+    display: block;
+    float: left;
+    width: 64px;
+    height: 32px;
+    margin: 1px;
+    -webkit-box-shadow: inset 1px 0 0 #f3f3f3, inset -1px 0 0 #f3f3f3, inset 0 1px 0 #f3f3f3, inset 0 -1px 0 #f3f3f3;
+    box-shadow: inset 1px 0 0 #f3f3f3, inset -1px 0 0 #f3f3f3, inset 0 1px 0 #f3f3f3, inset 0 -1px 0 #f3f3f3;
+}
+
+.external-logo-item {
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -9999px;
+    background: url('../img/external_logo.png') -9999px -9999px no-repeat;
+    -webkit-background-size: 192px 192px;
+    background-size: 192px;
+    width: 64px;
+    height: 32px;
+}
+
+.external-logo-item--jne {
+    background-position: -128px 0;
+}
+
+.external-logo-item--tiki {
+    background-position: -128px -32px;
+}
+
+.external-logo-item--pos-indonesia {
+    background-position: -128px -64px;
+}
